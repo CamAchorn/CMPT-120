@@ -8,22 +8,22 @@ def main():
 
 
     #insert your name in this string below
-    print("My name is ")
+    print("My name is Cam")
     #this is printing a string and not an integer. how do we fix it?
-    print("50")
+    print(50)
     #make sure this one prints out the sum
-    print("2 + 2")
+    print(2 + 2)
 
     #insert your name into this variable
-    name = ""
+    name = "Cam"
     print("Hello, my name is ", name)
 
     #insert your best friend's name here and have it print out
-    name2 = ""
+    name2 = "Mary"
     print("Hello, my best friend's name is ", name)
     
     #put your age here
-    age = 
+    age = 18
     print("I'm " + name + " and i'm " + str(age) + " years old")
     
  
