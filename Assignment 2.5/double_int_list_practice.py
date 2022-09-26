@@ -8,7 +8,9 @@ def main():
   
   #print out addition, subtraction, multiplication, and division of these two values
   print (intValue * doubleValue)
-  
+  print(intValue + doubleValue)
+  print(intValue - doubleValue)
+  print(intValue / doubleValue)
   
   #populate this list
   myFriends = ["Courtney", "Mary", "Wandy", "Syd"]
