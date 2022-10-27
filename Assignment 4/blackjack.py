@@ -16,9 +16,9 @@ def bust():
     print(a, y, z)
     if (x <= 21):
         return x
-    if (x > 21 and a==11 or y==11 or z==11):
+    elif (x > 21 and a==11 or y==11 or z==11):
         return (x - 10)
-    if (x > 21):
+    elif (x > 21):
         return 0
 
 def main():
