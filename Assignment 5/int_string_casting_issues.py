@@ -12,5 +12,12 @@ and ofc, if you're stuck, don't hesitate to email
 def main():
     intInput = int(input("Enter an int (but enter a string to see the error)"))
 
+    try:
+        print(intInput)
+    except intInput:
+        print("Not an Int")
+    else:
+        print("Something else is wrong")
+
 
 main()
