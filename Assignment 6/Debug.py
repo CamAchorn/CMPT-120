@@ -16,6 +16,7 @@ class Cake:
         self.flavor = flavor
         self.frosting = frosting
 
+
 # can you fill out the rest of this for me? im dumb
 # the cake needs to have the cake flavor and cake frosting stored
 
@@ -39,7 +40,7 @@ class Car:
         self.color = color
 
     def drivetrainType(self):
-        if 1769 < self.year < 1980 :
+        if 1769 < self.year < 1980:
             return ("manual?")
         elif self.year > 1979:
             return ("automatic?")
@@ -59,8 +60,11 @@ def main():
     print(em1.name, em1.idNumber, em1.department)
 
     # now create and print out a cake you make
-
+    cake1 = Cake("Strawberry", "Pink")
+    print(cake1.flavor, cake1.frosting)
     # and now create another cake and print it out
+    cake2 = Cake("Chocolate", "Vanilla")
+    print(cake2.flavor, cake2.frosting)
 
     # create a cat!
     cat1 = Cat("Yummi", 200, "long")
